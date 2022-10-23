@@ -9,11 +9,11 @@ A project for creating fine tuned, machine learning models of livestreamers, tha
 
 2. After downloading, running, and confirming that this works by generating a few test images, you will need to import the fine tunned embeddings that are in this repo. These models have file names that are in the format of "streamername-model-version.pt".  
 
-For every streamer that you want to include in your model, place the file associated with that streamer in the '\embeddings' directory.  
+    For every streamer that you want to include in your model, place the file associated with that streamer in the '\embeddings' directory.  
 
 3. Create images!  In txt2image prompt tab, you can now reference and generate images from the model.  To do so, type a regular prompt, but include the name of the model, as the keyword you want to create images us.  ex: "A picture of streamername-model-version" would be a valid prompt.  
 
-Note, you cannot just use a streamers name, unless you rename the model filename to that name.  
+    Note, you cannot just use a streamers name, unless you rename the model filename to that name.  
 
 ## Creating new embeddings
 
